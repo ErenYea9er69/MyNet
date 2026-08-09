@@ -87,6 +87,12 @@
             <Setter Property="BorderBrush" Value="{StaticResource BrushAccentGreen}"/>
         </Style>
 
+        <!-- Info Button -->
+        <Style x:Key="InfoButton" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+            <Setter Property="Foreground" Value="{StaticResource BrushAccentOrange}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BrushAccentOrange}"/>
+        </Style>
+
         <!-- Label Style -->
         <Style TargetType="Label">
             <Setter Property="Foreground" Value="{StaticResource BrushTextPrimary}"/>
